@@ -19,15 +19,6 @@ export default defineConfig({
             },
         },
     },
-    redirects: {
-        "/ru": "/ru/docs/get-started/overview",
-        "/uz": "/uz/docs/get-started/overview",
-        "/kr": "/kr/docs/get-started/overview",
-        "/ja": "/ja/docs/get-started/overview",
-        "/vi": "/vi/docs/get-started/overview",
-        "/zh": "/zh/docs/get-started/overview",
-        "/tr": "/tr/docs/get-started/overview",
-    },
     markdown: {
         // @ts-ignore
         remarkPlugins: [remarkHeaderId],
